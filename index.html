@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelug - Streaming Service Support</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <img src="images/logo.png" alt="Cartelug Logo" id="logo">
+            </div>
+    </header>
+
+    <main>
+        <section class="platform-selection">
+            <div class="container">
+                <div class="platform-grid">
+
+                    <div class="platform-card netflix">
+                         <img src="images/netflix.png" alt="Netflix Logo" class="platform-logo-img">
+                        <a href="#" class="get-started-btn netflix-btn">Get Started</a>
+                    </div>
+
+                    <div class="platform-card prime">
+                         <img src="images/prime-video.png" alt="Prime Video Logo" class="platform-logo-img">
+                        <a href="#" class="get-started-btn prime-btn">Get Started</a>
+                    </div>
+
+                    <div class="platform-card spotify">
+                         <img src="images/spotify.png" alt="Spotify Logo" class="platform-logo-img">
+                        <a href="#" class="get-started-btn spotify-btn">Get Started</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Cartelug. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
